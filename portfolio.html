@@ -28,9 +28,11 @@
             ><span class="logo-web">Web</span>Studio
           </a>
           <ul class="site-nav list">
-            <li class="item"><a href="./index.html" class="link">Студія</a></li>
             <li class="item">
-              <a href="./portfolio.html" class="link current"> Портфоліо</a>
+              <a href="./index.html" class="link current">Студія</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link"> Портфоліо</a>
             </li>
             <li class="item"><a href="" class="link"> Контакти</a></li>
           </ul>
@@ -39,11 +41,17 @@
         <ul class="auth-nav list">
           <li class="item">
             <a class="link-head" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+              ><svg class="envelope" width="16px" height="12px">
+                <use href="./images/icons.svg#icon-envelope"></use></svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="item">
-            <a class="link-head" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link-head" href="tel:+380961111111"
+              ><svg class="envelope" width="10px" height="16px">
+                <use href="./images/icons.svg#icon-phone"></use></svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -72,8 +80,8 @@
           </ul>
           <ul class="choice list">
             <li class="card-border">
-              <a class="card" href=""
-                ><img
+              <a class="card" href="">
+                <img
                   src="./images/portfolio_img/port1.jpg"
                   alt="Лептоп"
                   width="370"
@@ -87,8 +95,8 @@
               </a>
             </li>
             <li class="card-border">
-              <a class="card" href=""
-                ><img
+              <a class="card" href="">
+                <img
                   src="./images/portfolio_img/port2.jpg"
                   alt="Постер New Orlean"
                   width="370"
@@ -102,12 +110,12 @@
               </a>
             </li>
             <li class="card-border">
-              <a class="card" href=""
-                ><img
+              <a class="card" href="">
+                <img
                   src="./images/portfolio_img/port3.jpg"
                   alt="Seafood ресторан"
-                  width="370"
                   height="294"
+                  width="370"
                   class="card-img"
                 />
                 <div class="second-card">
@@ -117,8 +125,8 @@
               </a>
             </li>
             <li class="card-border">
-              <a class="card" href=""
-                ><img
+              <a class="card" href="">
+                <img
                   src="./images/portfolio_img/port4.jpg"
                   alt="Навушники"
                   width="370"
@@ -132,8 +140,8 @@
               </a>
             </li>
             <li class="card-border">
-              <a class="card" href=""
-                ><img
+              <a class="card" href="">
+                <img
                   src="./images/portfolio_img/port5.jpg"
                   alt="Дві коробки"
                   width="370"
@@ -147,8 +155,8 @@
               </a>
             </li>
             <li class="card-border">
-              <a class="card" href=""
-                ><img
+              <a class="card" href="">
+                <img
                   src="./images/portfolio_img/port6.jpg"
                   alt="компʼютер"
                   width="370"
@@ -162,8 +170,8 @@
               </a>
             </li>
             <li class="card-border">
-              <a class="card" href=""
-                ><img
+              <a class="card" href="">
+                <img
                   src="./images/portfolio_img/port7.jpg"
                   alt="Журнал"
                   width="370"
@@ -177,8 +185,8 @@
               </a>
             </li>
             <li class="card-border">
-              <a class="card" href=""
-                ><img
+              <a class="card" href="">
+                <img
                   src="./images/portfolio_img/port8.jpg"
                   alt="Бірка"
                   width="370"
@@ -192,8 +200,8 @@
               </a>
             </li>
             <li class="card-border">
-              <a class="card" href=""
-                ><img
+              <a class="card" href="">
+                <img
                   src="./images/portfolio_img/port9.jpg"
                   alt="Ноутбук"
                   width="370"
@@ -212,34 +220,70 @@
     </main>
     <!--Футер-->
     <footer class="footer">
-      <div class="container">
-        <a class="logo" href="./index.html"
-          ><span class="logo-web">Web</span>Studio</a
-        >
+      <div class="container one">
+        <section class="main-fut">
+          <h2 class="visually-hidden">Контакти</h2>
+          <a class="logo" href="./index.html"
+            ><span class="logo-web">Web</span>Studio</a
+          >
 
-        <address class="address">
-          <ul class="fut list">
-            <li class="fut-address">
-              <a
-                class="link-head adress"
-                target="_blank"
-                rel="noopener norefferer"
-                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
+          <address class="address">
+            <ul class="fut list">
+              <li class="fut-address">
+                <a
+                  class="link-head adress"
+                  target="_blank"
+                  rel="noopener norefferer"
+                  href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="fut-address">
+                <a class="link-head mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="fut-address">
+                <a class="link-head" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </section>
+        <section class="second-fut">
+          <h2 class="fut-title">Приєднуйтесь</h2>
+          <ul class="social-networks">
+            <li class="sn-item">
+              <a class="social futlink" href="">
+                <svg class="soc-icon fut" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="fut-address">
-              <a class="link-head mail" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+            <li class="sn-item">
+              <a class="social futlink" href="">
+                <svg class="soc-icon fut" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="fut-address">
-              <a class="link-head" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+            <li class="sn-item">
+              <a class="social futlink" href="">
+                <svg class="soc-icon fut" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sn-item">
+              <a class="social futlink" href="">
+                <svg class="soc-icon fut" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </section>
       </div>
     </footer>
   </body>
